@@ -1,0 +1,24 @@
+﻿:root {
+  font-family: system-ui, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  color: #2a2025;
+  background: #f7f5f5;
+  font-synthesis: none;
+  --muted: #635860;
+  --brand: #7b2545;
+  --brand-dark: #53172e;
+  --brand-soft: #f9eef2;
+  --border: #e6dde1;
+  --surface: #fff;
+  --shadow: 0 2px 4px #35132408, 0 8px 24px #35132408;
+  --page-width: 82rem;
+  --gutter: clamp(1rem, 4vw, 3rem);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
